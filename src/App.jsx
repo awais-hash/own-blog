@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from './components/header/Header'
 import Footer from './components/footer/Footer'
-import authservice from './appwrite/auth_service'
+import authservice from './appwrite/auth_service' 
 import { login, logout } from './features/authSlice'
 import { useDispatch } from 'react-redux'
 import { Outlet } from 'react-router-dom'
